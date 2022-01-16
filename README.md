@@ -221,3 +221,10 @@ A classification tree labels, records, and assigns variables to discrete classes
 </p>
 
 <p>The decision tree even performs better than the Naive Bayes classifier, with an accuracy score of 0.86%. It is also excellent at predicting true negative (TN) and true positive (TP).</p>
+
+<h2>Conclusion</h2>
+<p>Both the Naïve Bayes classifier and the Decision Tree classifier performs well on this dataset with high accuracy scores.</p> 
+<p>I have found that some factors such as in-flight entertainment, seat comfort, online support, ease of online booking and checking service are very important for passengers. These insights could help the airline to improve these aspects to give the best experience to their passengers.</p>
+<p>I believe other models with more hyperparameter tuning opportunities could be fitted to this data and achieve a higher accuracy. Do not hesitate to contact me if you have any comments or recommendations.</p>
+
+
