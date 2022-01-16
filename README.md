@@ -34,7 +34,8 @@
 - The first goal is to identify the variables that influence the most the overall satisfaction feeling of a passenger after a flight.<br>
 - The second goal is to develop a model that predicts whether a customer will be satisfied or not (variable <i>satisfaction</i>) depending on the details and parameters of the flight.</p>
 
-<p>I will explore the dataset, process it and design a Naive Bayes classifier as well as a Decision Tree.</p>
+<p>The project was carried out entirely in <strong>R</strong>. The code is saved in a R file with annotations (<strong>invistico_airline.R</strong>).<br>
+This document explains my reasoning, displays the main lines of code as well as the output: I will explore the dataset, process it and design a <strong>Naive Bayes classifier</strong> as well as a <strong>Decision Tree</strong>.</p>
 
 <h2>II) Exploratory Data Analysis</h2>
 <h3>1) Summary statistics</h3>
@@ -51,6 +52,26 @@
   - More than half of the flights depart and arrive at time.</p>
 
 <h3>2) Visualizations</h3>
+
+<p>- Distribution of the numerical variables:</p>
+<p align="center">
+  <img src="https://github.com/marc-bolle/airlines-passengers-satisfaction-classification/blob/main/images/boxplots_numerical_variables.png">
+</p>
+
+<p>- Distribution of satisfied/not-satisfied by Age:</p>
+<p align="center">
+  <img src="https://github.com/marc-bolle/airlines-passengers-satisfaction-classification/blob/main/images/satisfaction_age.png">
+</p>
+
+<p>- Distribution of satisfied/not-satisfied by Flight Distance:</p>
+<p align="center">
+  <img src="https://github.com/marc-bolle/airlines-passengers-satisfaction-classification/blob/main/images/satisfaction_flight_distance.png">
+</p>
+
+<p>- Distribution of satisfied/not-satisfied for the categorical variables:</p>
+<p align="center">
+  <img src="https://github.com/marc-bolle/airlines-passengers-satisfaction-classification/blob/main/images/distribution_satisfaction_categorical_variables.jpg">
+</p>
 
 <h2>III) Data processing</h2>
 <p>After having got to know the data through summary statistics and visualizations, I will prepare it for modeling.</p> 
